@@ -1,0 +1,1 @@
+{\n  "name": "visitor-pass-mern",\n  "version": "1.0.0",\n  "scripts": {\n    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",\n    "start:backend": "node backend/server.js",\n    "start:frontend": "cd frontend && npm start"\n  },\n  "dependencies": {\n    "concurrently": "^6.0.0"\n  }\n}
